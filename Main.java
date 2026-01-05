@@ -1,7 +1,7 @@
 public class Main {
     
     public static void main(String[] args){
-        Ex02.executar();
+        System.out.println("You're not a real lawyer!");
     }
 }
 
