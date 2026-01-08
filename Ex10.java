@@ -23,6 +23,6 @@ public class Ex10 {
             total_sapatos, salario_total
         );
         
-
+        scanner.close();
     }
 }
