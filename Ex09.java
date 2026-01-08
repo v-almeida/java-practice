@@ -20,6 +20,8 @@ public class Ex09 {
         System.out.println("O valor da gorjeta é " + "Total: R$ " + df.format(gorjeta) + " R$." + "\nSendo assim, o valor total a ser pago é " + 
             "Total: R$ " + df.format(valor_gasto + gorjeta) + " R$." 
         );
+
+        scanner.close();
     }
     
 }
