@@ -24,7 +24,8 @@ public class Ex13 {
         System.out.printf("Sua altura: %.2f \nSombra pessoa: %.2f \nSombra Prédio: %.2f \nAltura prédio: %.2f Metros de altura", 
             altura, sombra_pessoa, sombra_predio, altura_predio
         );
-    
+        
+        scanner.close();
 
     }
 }
