@@ -35,6 +35,7 @@ public class Ex16 {
             saque, cedula_100, cedula_50, cedula_20, cedula_10, cedula_5
         );
 
+        scanner.close();
     }
     
 }
