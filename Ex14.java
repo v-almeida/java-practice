@@ -13,10 +13,19 @@ public class Ex14 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o valor do salário mínimo: ");
-        double salario_minimo = scanner.nextDouble();
+        float salario_minimo = scanner.nextFloat();
 
         System.out.print("Digite o gasto de quilowatts gasta: ");
-        double quilowatts = scanner.nextDouble();
+        float quilowatts = scanner.nextFloat();
+
+        float valor_reais = (salario_minimo / 7) / 100;
+
+        float valor_total = quilowatts * valor_reais;
+
+        System.out.printf("\nValor em reais: R$ %.2f \nValor total: R$ %.2f \n\n100 quilowatts equivale a %.2f", 
+        valor_reais, valor_total, salario_minimo/7);
+
+        scanner.close();
 
 
     }
