@@ -11,12 +11,18 @@ public class Ex21 {
         int num = scanner.nextInt();
 
         int i;
+        int quant = 0;
 
         for (i = 1; i <= num; i++){
             if (i % 2 == 0){
                 System.out.println(i);
+                 quant++;
             }
+
+           
         }
+
+        System.out.println("Quantidade de números pares apresentados: " + quant);
 
         scanner.close();
     }
