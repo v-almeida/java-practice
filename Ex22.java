@@ -22,5 +22,7 @@ public class Ex22 {
 
         System.out.println("Resultado: " + soma);
 
+        scanner.close();
+
     }
 }
