@@ -16,9 +16,8 @@ public class Ex21 {
             if (i % 2 == 0){
                 System.out.println(i);
             }
-            else {
-                System.out.println("Não existem números pares existentes!");
-            }
         }
+
+        scanner.close();
     }
 }
