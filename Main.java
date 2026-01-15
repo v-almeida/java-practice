@@ -2,9 +2,9 @@ public class Main {
     
     public static void main(String[] args){
 
-        //System.out.println("---------------- Beginning the second list --------------");
+        System.out.println("It's showtime, folks!");
         
-        Ex25.executar();
+        //Ex25.executar();
         
     }
 }
